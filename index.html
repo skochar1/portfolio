@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <title>test bootstrap</title>
+    <style>
+      /* Box */
+      .box {
+        margin: 10px;
+        padding: 10px;
+        font-size: 2vw;
+      }
+      .info {
+        color: brown;
+        background: cornsilk;
+        border: 1px solid burlywood;
+        width: 200px;
+        margin: auto;
+      }
+      
+      .carousel-item .img-fluid {
+        width:100%;
+        height:100%;
+      }
+
+    </style>
+
+  	</head>
+  	<body>
+      
+      
+    <!-- Navbar --> 
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="https://github.com/skochar1/TherapyApp/blob/main/Untitled_Artwork.png?raw=true"
+                   width="70" height="40" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="exp.html">Experiences</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projects
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="winterest.html">Winterest</a>
+                    <a class="dropdown-item" href="therapysearcher.html">Therapy Searcher</a>                
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        
+      </nav>
+    <!-- Navbar End -->
+      
+    <!-- Jumbotron beginning -->
+    <div class="jumbotron">
+      <h1 class="display-4">Shreya Kochar</h1>
+      <p class="lead">Welcome to my portfolio. Inside, you will find my projects, experience, and much more.</p>
+      <hr class="my-4">
+
+      
+      <!-- Carousel beginning -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="margin: auto;">
+        <div class="carousel-inner">
+          
+          <!-- First slide beginning -->
+          
+            <div class="carousel-item active" style="margin: auto;">
+              <img class="d-block w-100" src="https://github.com/skochar1/TherapyApp/blob/main/Screen%20Shot%202021-10-23%20at%204.05.18%20PM.png?raw=true">
+              <!-- Image source: https://www.borgenmagazine.com/wp-content/uploads/2020/08/Gen-Z-Activism-scaled.jpg -->
+              <div class="carousel-caption d-block">
+                <div class="box info">
+                  Activist.
+                </div>
+              </div>
+            </div>
+          
+          <!-- First slide end -->
+
+          <!-- Second slide beginning -->
+          
+            <div class="carousel-item" style="margin: auto;">
+              <img class="d-block w-100" src="https://github.com/skochar1/TherapyApp/blob/main/Screen%20Shot%202021-10-23%20at%204.08.00%20PM.png?raw=true">
+              <!-- Image source: https://dogtrainingobedienceschool.com/pic/2823912_full-aesthetic-tumblr-written-quotes-journal-writing-tumblr.jpg -->
+              <div class="carousel-caption d-block">
+                <div class="box info">
+                  Writer.
+                </div>
+              </div>
+            </div>
+         
+          <!-- Second slide end -->
+          
+          <!-- Third slide beginning -->
+          
+            <div class="carousel-item" style="margin: auto;">
+              <img class="d-block w-100" src="https://github.com/skochar1/TherapyApp/blob/main/Screen%20Shot%202021-10-23%20at%204.09.04%20PM.png?raw=true">
+              <!-- Image source: https://t4.ftcdn.net/jpg/01/97/52/03/360_F_197520368_7Z9fHks86H4UGyOBlL5S567JlQo90ndx.jpg -->
+              <div class="carousel-caption d-block">
+                <div class="box info">
+                  Steminist.
+                </div>
+              </div>
+            </div>
+         
+          <!-- Third slide end -->
+          
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <!-- Carousel end -->
+      
+    </div>
+    <!-- Jumbotron end -->
+  	
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+	</body>
+</html>
+
