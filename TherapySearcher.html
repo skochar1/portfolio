@@ -1,0 +1,250 @@
+!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <title>test bootstrap</title>
+    <style>
+      /* Box */
+      .box {
+        margin: 10px;
+        padding: 10px;
+        font-size: 40px;
+      }
+      .info {
+        color: brown;
+        background: cornsilk;
+        border: 1px solid burlywood;
+        width: 400px;
+        margin: auto;
+      }
+      
+      .carousel .item {
+        height: 500px;
+        width: 400;
+      }
+
+      .item img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-height: 150px;
+      }
+      
+      .example_b {
+        color: #fff !important;
+        text-decoration: none;
+        background: #60a3bc;
+        padding: 10px;
+        border-radius: 50px;
+        display: inline-block;
+        border: none;
+        transition: all 0.4s ease 0s;
+      }
+      
+      .example_b:hover {
+        text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+        -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+        transition: all 0.4s ease 0s;
+      }
+      
+      .title {
+        margin: left;
+      }
+      
+      .container {
+        margin: auto;
+      }
+      
+      .card-item .img-fluid {
+        width:100%;
+        height:100%;
+      }
+      
+
+    </style>
+
+  	</head>
+  	<body>
+      
+      
+    <!-- Navbar --> 
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="https://github.com/skochar1/TherapyApp/blob/main/Untitled_Artwork.png?raw=true"
+                   width="70" height="40" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="exp.html">Experiences</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Projects
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="winterest.html">Winterest</a>
+                    <a class="dropdown-item" href="#">Therapy Searcher</a>                
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        
+      </nav>
+    <!-- Navbar End -->
+      
+    <!-- Jumbotron beginning -->
+    <div class="jumbotron">
+      <h2 class="display-4">Therapy Searcher App</h2>
+      
+      <p class="lead">A widespread problem for students has been finding a proper mental 
+        health professional for their needs. School mental health resources often do not 
+        provide enough support, and are overburdened by the amount of students. Several
+        students are deterred from even attempting to go to therapy because of the amount 
+        of time it takes to find a therapist that fit their needs (ex. monetary issues, 
+        insurance accepted or not, availability to accept new clients, specialties on specific 
+        mental health issues, figuring out if they are a “fit”). We have designed an app that 
+        helps users find mental health professionals that meet their needs quickly. </p>
+      <hr class="my-4">
+      <p class="lead">My contributions: prototyping (HTML, CSS, Bootstrap) and sketching</p>
+    </div>
+    <!-- Jumbotron End -->
+      
+      
+      <!-- Grid beginning -->
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-6" style="margin: auto;">
+            <h3 style="text-align: center;">
+              Sketches
+            </h3>
+            <p>
+              We first sketched out our various design ideas for the application.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Grid end -->
+      
+      
+      <!-- Card Deck beginning -->
+      <div class="container">
+        <div class="card-deck">
+          <div class="card bg-light" style="max-width: 600px;">
+            <div class="card-body text-left">
+              <h5 class="card-title">Design 1</h4>
+              <p class="card-text">Our first design focused on keeping our pages as clean as possible to 
+              reduce the overwhelming nature of the application.</p>
+            </div>
+            <img class="card-img-bottom" src="https://github.com/skochar1/TherapyApp/blob/main/design_1.jpeg?raw=true"
+                 alt="Card image">
+          </div>
+          
+          <div class="card bg-light" style="max-width: 600px;">
+            <div class="card-body text-left">
+              <h5 class="card-title">Design 2</h4>
+              <p class="card-text">Our second design focused on reducing the number of screens users would
+                have to go through and keep the program efficient.</p>
+            </div>
+            <img class="card-img-bottom" src="https://github.com/skochar1/TherapyApp/blob/main/design_2.jpeg?raw=true"
+                 alt="Card image">
+          </div>
+          
+        </div>
+      </div>
+      
+    <!-- Card Deck end -->
+      
+    <!-- Divider beginning -->
+      <div class="container">
+        <div class="row">
+          <div class="col-sm">
+          </div>
+          <div class="col-sm" style ="text-align: center">
+            <p>
+              
+            </p>
+          </div>
+          <div class="col-sm">
+            
+          </div>
+        </div>
+      </div>
+    <!-- Divider end -->
+      
+    <!-- Grid beginning -->
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-6" style="margin: auto;">
+            <h3 style="text-align: center;">
+              Wireframes
+            </h3>
+            <p>
+              We then created wireframes for different types of users for our app.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Grid end -->
+      
+      <!-- Card Deck beginning -->
+      <div class="container">
+        <div class="card-deck">
+          <div class="card bg-light" style="max-width: 600px;">
+            <div class="card-body text-left">
+              <h5 class="card-title">New Patient Wireframe</h4>
+              <p class="card-text">This wireframe was created to help new patients navigate the app and
+              create their user profiles.</p>
+            </div>
+            <img class="card-img-bottom" src="https://github.com/skochar1/TherapyApp/blob/main/patient_wireframe.png?raw=true"
+                 alt="Card image">
+          </div>
+          
+          <div class="card bg-light" style="max-width: 490px;">
+            <div class="card-body text-left">
+              <h5 class="card-title">New Professional Wireframe</h4>
+              <p class="card-text">This wireframe was created to help new professionals navigate the app and
+              create their user profiles.</p>
+            </div>
+            <img class="card-img-bottom" src="https://github.com/skochar1/TherapyApp/blob/main/professional_wireframe.png?raw=true"
+                 alt="Card image">
+            <p>
+              
+            </p>
+          </div>
+          
+        </div>
+      </div>
+      
+    <!-- Card Deck end -->
+  	
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+	</body>
+</html>
